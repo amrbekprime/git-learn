@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    padding: 10px 80px;
+    background: #0F1035;
+}
+.nav .ol1{
+    margin: 0px 30px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+.nav .ol1 a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+ 
+}
+.nav .ol2 a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.nav .ol2{
+    list-style: none;
+    margin-left: 970px;
+    align-items: center;
+}
+.box1{
+    width: 100%;
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    padding: 10px 80px;
+    border: 2px solid;
+    gap: 20px;
+}
+.box1 .img1{
+    align-items: center;
+}
+@font-face {
+    font-family:  'Roboto1';
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+.box1 .ol3 li a{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+text-decoration: none;
+margin: 0px 30px;
+}
+.box1 .ol3{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+.box2{
+    width: 100%;
+    height: 62px;
+    background: #D3F1F3;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.box2 .span1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+
+}
+.box2 .span2{
+    font-family: 'Roboto1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;    
+}
+.img2{
+    width:100%;
+    height: 584px;
+    background-size: cover;
+    align-items: flex-end;
+    border: 3px solid orange;
+    gap: 12px;
+    padding: 30px;
+    background-image: url(./images/Rectangle.jpg);
+}
+.img2 input{
+    background: #FFFFFF;
+border: 2px solid ;
+border-radius: 3px;
+font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: rgba(0, 0, 0, 0.2);
+width: 340px;
+height: 46px;
+margin: 316px 32px 41px 480px;
+border: none;
+}
+.img2 .p1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.img2 .p2{
+    margin-top: 12px;
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 40px;
+text-align: center;
+color: #000000;
+
+}
+.img2 button{
+    width: 108px;
+    height: 46px;
+    background: #190083;
+border-radius: 3px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+margin-bottom: 20px;
+}
+h1{
+    width: 422px;
+    margin: 92px 529px 53px;
+font-family: 'Roboto';
+text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+}
+p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+}
+.box3 .img3{
+    width: 80px;
+    height: 70px;
+    margin-left: 111px;
+    
+}
+.box3{
+    /* justify-content: center; */
+    /* margin-left: 248px; */
+    margin-top: 50px;
+    width: 310px;
+   height: 300px;
+    /* border: 2px solid red; */
+}
+.box3 .p3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+/* text-align: center; */
+color: #000000;
+margin-top: 50px;
+}
+.box3 .p4{
+    font-family: 'Roboto1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 27px;
+    width: 250px;
+}
+.allbox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 140px;
+}
+.button2{
+    width: 148px;
+    height: 52px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+margin: 0px 676px;
+line-height: 20px;
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+background: #190083;
+border-radius: 3px;
+}
+.img4{
+width: 100%;
+height: 904px;
+background-image: url(./images/Rectangle2.jpg);
+margin-top: 110px;
+background-size: cover;
+position: relative;
+}
+.IBM{
+    width: 1280px;
+    height: 260px;
+    bottom: 130px;
+    background-color: #FFFFFF;
+    right: 0;
+    display: flex;
+flex-direction: row;
+    position: absolute;
+
+}
+.IBM .img5{
+margin-top: 78px;
+margin-left: 70px;
+width: 100px;
+height: 100px;
+
+}
+.IBM .span3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 42px;
+color: #000000;
+}
+.IBM .span4{
+    margin-top: 30px;
+    /* margin-left: 50px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;   
+    color: #000000;
+}
+.box4{
+    margin-top: 67px;
+    margin-left: 50px;
+    width: 486px;
+}
+.p550{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+margin-top: 146px ;
+margin-left: 348px;
+width: 744px;
+}
+.p5{
+    margin-top: 40px;
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+margin-left: -55px;
+}
+.images{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.images .tiktok{
+    /* border: 2px solid red; */
+    width: 190px;
+    height: 220px;
+    position: relative;
+}
+.images .tiktok img{
+    width: 86%;
+    height: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.tiktok .text1 p {
+position: absolute;
+top: o;
+right: 43px;
+font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+color: #000000;
+}
+.images .gems{
+    /* border: 2px solid red; */
+    width: 190px;
+    height: 220px;
+    position: relative;
+}
+.images .gems img{
+    width: 99%;
+    height: 70%;
+    margin-top: 40px;
+
+}
+.gems .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+font-size: 18px;
+top: 0px;
+right: 38px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+.images .bank{
+    /* border: 2px solid red; */
+    width: 190px;
+    height: 220px;
+    position: relative;
+}
+.bank img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    /* border: 2px solid red; */
+}
+.bank .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+width: 70px;
+position: absolute;
+font-size: 18px;
+right: 27px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+
+}
+.images .target{
+    /* border: 2px solid red; */
+    width: 190px;
+    position: relative;
+    height: 220px;
+}
+.target img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.target .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+position: absolute;
+font-weight: 400;
+right: 44px;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+
+}
+.images .Pg{
+    /* border: 2px solid red; */
+    width: 190px;
+    position: relative;
+    height: 220px;
+}
+.Pg img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.Pg .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+font-size: 18px;
+top: 5px;
+width: 60px;
+right: 34px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+.images .mills{
+    /* border: 2px solid red; */
+    width: 190px;
+    position: relative;
+    height: 220px;
+}
+.mills img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.mills .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+font-size: 18px;
+top: 5px;
+width: 60px;
+right: 34px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+.images .kipp{
+    /* border: 2px solid red; */
+    width: 190px;
+    position: relative;
+    height: 220px;
+}
+.kipp img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+}
+.kipp .text1 p{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+font-size: 18px;
+top: 5px;
+width: 60px;
+right: 34px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+.box1 .ol5 li a{
+    font-family: 'Roboto1';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+text-decoration: none;
+margin: 0px 30px;
+}
